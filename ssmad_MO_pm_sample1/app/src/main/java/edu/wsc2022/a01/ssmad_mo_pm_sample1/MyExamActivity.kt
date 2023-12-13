@@ -22,7 +22,7 @@ class MyExamActivity : AppCompatActivity() {
         }
         getData(file)
         binding.mexBackbt.setOnClickListener {
-            startActivity(Intent(this,ExamEditActivity::class.java))
+            finish()
         }
 
     }
