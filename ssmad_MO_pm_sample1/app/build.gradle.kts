@@ -5,7 +5,10 @@ plugins {
 
 android {
     namespace = "edu.wsc2022.a01.ssmad_mo_pm_sample1"
-    compileSdk = 33
+    compileSdk = 34
+    viewBinding {
+        enable = true
+    }
 
     defaultConfig {
         applicationId = "edu.wsc2022.a01.ssmad_mo_pm_sample1"
