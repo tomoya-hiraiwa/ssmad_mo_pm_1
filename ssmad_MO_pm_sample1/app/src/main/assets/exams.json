@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Exam A",
+    "score": 60,
+    "difficulty": 80,
+    "photo": "exam_a.jpg"
+  },
+  {
+    "name": "Exam B",
+    "score": 85,
+    "difficulty": 32,
+    "photo": "exam_b.jpg"
+  },
+  {
+    "name": "Exam C",
+    "score": 40,
+    "difficulty": 74,
+    "photo": "exam_c.jpg"
+  }
+]
