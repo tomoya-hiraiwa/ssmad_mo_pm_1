@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Ssmad_MO_pm_sample1"
         tools:targetApi="31">
         <activity
+            android:name=".ResActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuizActivity"
             android:exported="false" />
         <activity

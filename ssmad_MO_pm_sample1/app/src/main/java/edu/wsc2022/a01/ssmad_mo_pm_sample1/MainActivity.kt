@@ -22,7 +22,9 @@ class MainActivity : AppCompatActivity() {
         binding.mainMexbt.setOnClickListener {
             startActivity(Intent( this,MyExamActivity::class.java))
         }
-
+        binding.mainExbt.setOnClickListener {
+            startActivity(Intent(this,QuizActivity::class.java))
+        }
     }
 
 

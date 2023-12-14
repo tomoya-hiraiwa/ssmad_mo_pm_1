@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What does a yellow traffic light indicate?",
+    "choices": [
+      "Slow down and proceed with caution.",
+      "Stop and wait for the light to turn green.",
+      "Speed up to clear the intersection quickly.",
+      "Make a right turn without stopping.*"
+    ]
+  },
+  {
+    "question": "When should you use your vehicle's high beam headlights?",
+    "choices": [
+      "In foggy conditions or heavy rain.",
+      "When approaching other vehicles from behind.",
+      "At all times for better visibility.",
+      "On dark roads with no oncoming traffic or pedestrians.*"
+    ]
+  },
+  {
+    "question": "What does a solid white line on the road indicate?",
+    "choices": [
+      "Passing is allowed if it is safe to do so.",
+      "Lane changing is prohibited.",
+      "Vehicles must stop behind the line at intersections.",
+      "Lane markings or travel direction.*"
+    ]
+  },
+  {
+    "question": "What should you do if encounter a school bus with its red lights?",
+    "choices": [
+      "Pass the school bus cautiously.",
+      "Proceed with caution and maintain your speed.",
+      "Stop and wait until the lights stop.*",
+      "Honk your horn to alert the bus driver."
+    ]
+  },
+  {
+    "question": "What is the purpose of an anti-lock braking system?",
+    "choices": [
+      "To prevent the wheels from locking up.*",
+      "To improve fuel efficiency.",
+      "To reduce engine wear and tear.",
+      "To provide better traction on icy roads."
+    ]
+  }
+]
