@@ -53,6 +53,9 @@ class QuizActivity : AppCompatActivity() {
               Toast.makeText(this, "Please select the answer", Toast.LENGTH_SHORT).show()
             }
         }
+        binding.qBackbt.setOnClickListener {
+            finish()
+        }
     }
     private fun display(){
         questionData = Practice.questionList[questionNum -1]
@@ -107,11 +110,12 @@ class QuizActivity : AppCompatActivity() {
                 val question = questionData.question
                 val correct = questionData.choices.firstOrNull { it.contains("*") }
                 Practice.unCorrectList.add(UnCorrectData(question,choice,correct!!))
+                Practice.correctList.add(false)
                 Log.d("uncorrect", "${Practice.unCorrectList}")
             }
-            if (questionNum == 5){
-                startActivity(Intent(this,ResActivity::class.java))
-            }
+        }
+        if (questionNum == 5){
+            startActivity(Intent(this,ResActivity::class.java))
         }
     }
     private fun getData(file: File){
